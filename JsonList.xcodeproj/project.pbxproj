@@ -14,6 +14,7 @@
 		2ADBA5F823B2F00300AB98E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ADBA5F723B2F00300AB98E0 /* Preview Assets.xcassets */; };
 		2ADBA5FB23B2F00300AB98E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ADBA5F923B2F00300AB98E0 /* LaunchScreen.storyboard */; };
 		2ADBA60323B2F15B00AB98E0 /* PokeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADBA60223B2F15B00AB98E0 /* PokeAPI.swift */; };
+		2ADBA60523B2F41100AB98E0 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADBA60423B2F41100AB98E0 /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2ADBA5FA23B2F00300AB98E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2ADBA5FC23B2F00300AB98E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2ADBA60223B2F15B00AB98E0 /* PokeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeAPI.swift; sourceTree = "<group>"; };
+		2ADBA60423B2F41100AB98E0 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +63,12 @@
 				2ADBA5EE23B2F00200AB98E0 /* AppDelegate.swift */,
 				2ADBA5F023B2F00200AB98E0 /* SceneDelegate.swift */,
 				2ADBA5F223B2F00200AB98E0 /* ContentView.swift */,
+				2ADBA60423B2F41100AB98E0 /* NetworkingManager.swift */,
+				2ADBA60223B2F15B00AB98E0 /* PokeAPI.swift */,
 				2ADBA5F423B2F00300AB98E0 /* Assets.xcassets */,
 				2ADBA5F923B2F00300AB98E0 /* LaunchScreen.storyboard */,
 				2ADBA5FC23B2F00300AB98E0 /* Info.plist */,
 				2ADBA5F623B2F00300AB98E0 /* Preview Content */,
-				2ADBA60223B2F15B00AB98E0 /* PokeAPI.swift */,
 			);
 			path = JsonList;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				2ADBA5EF23B2F00200AB98E0 /* AppDelegate.swift in Sources */,
 				2ADBA60323B2F15B00AB98E0 /* PokeAPI.swift in Sources */,
 				2ADBA5F123B2F00200AB98E0 /* SceneDelegate.swift in Sources */,
+				2ADBA60523B2F41100AB98E0 /* NetworkingManager.swift in Sources */,
 				2ADBA5F323B2F00200AB98E0 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
